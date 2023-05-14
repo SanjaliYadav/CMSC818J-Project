@@ -1,4 +1,19 @@
 # CMSC818J-Project
+
+## Introduction
+This paper presents an optimized round-robin allocation strategy for reducing load imbalance. The proposed
+approach utilizes a First-In-First-Out (FIFO) buffer along with
+the existing hardware for round-robin allocation to allocate
+new tasks to processing elements (PEs) immediately after they
+complete their current task, reducing wait times for faster
+PEs. The FIFO buffer also stores rows in sorted order based
+on the number of non-zero elements, thereby enabling even
+workload distribution over the PEs. Our simulations demonstrate
+that the optimized solution offers lower latency and better PE
+utilization compared to the baseline solution in most cases. While
+the optimized solution performs similarly to the baseline in
+worst-case scenarios, the proposed approach offers significant
+improvements in most practical applications. 
 ## Set Up 
 - Download the Baseline and Optimized architecture jupyter notebooks and run them 
 - Use the Data directory to feed the input matrices 
