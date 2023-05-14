@@ -16,7 +16,7 @@ worst-case scenarios, the proposed approach offers significant
 improvements in most practical applications. 
 ## Set Up 
 - Download the Baseline and Optimized architecture jupyter notebooks and run them 
-- Use the Data directory to feed the input matrices 
+- Use the Test directory to feed the input matrices 
 ## Simulator 
 ### Implementation  
 - The simulator reads the input matrices from Data directory and stores the first matrix in csr and second matrix in csc format of python's library for sparse matrices
